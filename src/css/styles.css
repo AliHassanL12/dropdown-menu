@@ -2,11 +2,20 @@
   box-sizing: border-box;
 }
 .dropdown-button {
+  background: url("../images/menu-symbol-of-three-parallel-lines-svgrepo-com.svg")
+    no-repeat center/30px;
   height: 40px;
   width: 40px;
 }
-
 img {
   display: block;
   width: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
 }
